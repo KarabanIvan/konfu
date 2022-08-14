@@ -1,0 +1,257 @@
+<%= require('@parts/header.ejs')({title: 'header_unfilled' }) %>
+
+<main class="homepage" id="root">
+    <div class="exam">
+        <div class="part-bg">
+            <section class="part-header">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <a href="">Главная</a>
+                        <span>
+                            Блог
+                        </span>
+                    </div>
+                    <div class="part-header__row">
+                        <h2 class="part-header__title">
+                            Обучение в Китае для учащихся
+                        </h2>
+                        <p class="part-header__txt">
+                            Академия "Конфуций" является официальным центром тестирования по международным квалификационным экзаменам на знание китайского языка YCT, HSK, HSKK (всех уровней)
+
+                        </p>
+                    </div>
+                </div>
+                <div class="part-header__img-wrapper">
+                    <div class="part-header__img">
+                        <img src="<%=require('@img/china.png') %>" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="exam-accord">
+                <div class="container">
+                    <div class="exam-accord__red accord-red">
+                        <ul class="accord-red__nav">
+                            <li class="accord-red__nav-li active">
+                                Стипендиальные программы
+                            </li>
+                            <li class="accord-red__nav-li">
+                                Лингвистические лагеря
+                            </li>
+                        </ul>
+                        <div class="accord-red__block active">
+                            <p>
+                                «Стипендии Института Конфуция» учреждены штаб-квартирой Институтов Конфуция - Центром языкового образования и сотрудничества При Министерстве Образования КНР (ранее - Китайская канцелярия Ханьбань) для поощрения учащихся, проявивших особые успехи в изучении китайского языка и культуры Китая
+                            </p>
+                        </div>
+                        <div class="accord-red__block">
+                            <p>
+                                Небольшое описание выбранного подраздела, абзацем примерно в 4-5 строк для создания общего опнимания пользователя о содержании раздела
+                            </p>
+                            <ul>
+                                <li>
+                                    Удобные формы обучения онлайн дома или в классе академии
+                                </li>
+                                <li>
+                                    Группы по всем возрастам от 9 до 16 лет
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="exam-info exam-info_china">
+            <div class="container">
+                <div class="exam-info__row">
+                    <div class="exam-info__left">
+                        <h2 class="exam-info__title">
+                            Предоставляем стипендиальные программы и гранты для учащихся
+                        </h2>
+                        <p class="exam-info__txt">
+                            Для желающих учиться в Китае бесплатно или оплачивая лишь часть расходов, существуют различные возможности обучения за счет китайского государства. Одна из таких возможностей – подать заявку на получение стипендии Института Конфуция.
+                        </p>
+                        <div class="exam-info__link-wrapper">
+                            <a href="" class="exam-info__link">
+                                Подробнее о программах
+                                <i>
+                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 9L18 9" stroke="white"/>
+                                        <path d="M10 1L18 9L10 17" stroke="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="exam-info__right">
+                        <ul class="exam-info__list">
+                            <li>
+                                Краткосрочные программы <br>
+                                <span>
+                                    (месяц, полгода, год)
+                                </span>
+                            </li>
+                            <li>
+                                Долгосрочные программы <br>
+                                <span>(бакалавриат, магистратура, аспирантура, докторантура)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="china-info">
+            <div class="container">
+                <div class="main-info__plane china-info__plane">
+                    <p class="main-info__plane-bold">
+                        Ежегодно Академия <br> Конфуций организует детский лингвистический лагерь в <br> Китае сроком выезда 2 недели
+                    </p>
+                    <div class="main-info__plane-txt">
+                        Так, в рамках этой программы ученики имеют возможность познакомиться с культурой Китая , посетив
+                        такие города, как Пекин, Шанхай, Сиань, Далянь, Хайкоу, Ухань, Тяньцзин, Шэньян, Циндао, Динань (при
+                        поддержке КНР)
+                    </div>
+                    <img src="<%=require('@img/plane.svg') %>" class="main-info__plane-img" alt="">
+                </div>
+            </div>
+            <div class="gallery-block">
+                <div class="gallery-block__wrapper">
+                    <div class="gallery-block__row">
+                        <div class="gallery-block__item">
+                            <img src="<%=require('@img/gallery-1.png') %>" alt="">
+                        </div>
+                        <div class="gallery-block__item">
+                            <img src="<%=require('@img/gallery-2.png') %>" alt="">
+                        </div>
+                        <div class="gallery-block__item">
+                            <img src="<%=require('@img/gallery-3.png') %>" alt="">
+                        </div>
+                        <div class="gallery-block__item">
+                            <img src="<%=require('@img/gallery-4.png') %>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="china-info__bottom">
+                    <a href="" class="china-info__link">
+                        подробнее о лингвистическом лагере
+                        <i>
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9L18 9" stroke="white"/>
+                                <path d="M10 1L18 9L10 17" stroke="white"/>
+                            </svg>                                
+                        </i>
+                    </a>
+                    <p class="china-info__txt">
+                        Участникам лагеря оплачивается дорога (авиабилеты и т.п.) + виза в Китай + личные расходы в Китае (в случае возникновения непредвиденных расходов, об этом сообщается дополнительно); китайской стороной оплачивается обучение, проживание, 3-х разовое питание, вся экскурсионная программа
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="blog blog_exam">
+            <div class="container">
+                <div class="blog__header">
+                    <h2 class="blog__title">
+                        Последние новости
+                    </h2>
+                    <a href="" class="blog__link">
+                        Все новости
+                        <i>
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9L18 9" stroke="white" />
+                                <path d="M10 1L18 9L10 17" stroke="white" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+                <div class="blog__wrapper">
+                    <a href="" class="blog__item">
+                        <div class="blog__item-group">
+                            <span class="blog__item-date">
+                                5 марта <span>2022</span>
+                            </span>
+                            <p class="blog__item-txt">
+                                Торжественная церемония открытия проекта «профессиональное развитие учителя китайского
+                                языка»
+                            </p>
+                        </div>
+                        <div class="blog__item-img">
+                            <img src="<%=require('@img/events-1.png') %>" alt="">
+                        </div>
+                        <div class="blog__item-icon">
+                            <svg width="77" height="42" viewBox="0 0 77 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 21L75 21" stroke="#F4E8DD" stroke-width="2" />
+                                <path d="M55 1L75 21L55 41" stroke="#F4E8DD" stroke-width="2" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="" class="blog__item">
+                        <div class="blog__item-group">
+                            <span class="blog__item-date">
+                                5 марта <span>2022</span>
+                            </span>
+                            <p class="blog__item-txt">
+                                Конкурс! Победителям дарим 3 бесплатных урока китайского языка в Школе "Конфуций"
+                            </p>
+                        </div>
+                        <div class="blog__item-img">
+                            <img src="<%=require('@img/events-2.png') %>" alt="">
+                        </div>
+                        <div class="blog__item-icon">
+                            <svg width="77" height="42" viewBox="0 0 77 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 21L75 21" stroke="#F4E8DD" stroke-width="2" />
+                                <path d="M55 1L75 21L55 41" stroke="#F4E8DD" stroke-width="2" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="" class="blog__item">
+                        <div class="blog__item-group">
+                            <span class="blog__item-date">
+                                5 марта <span>2022</span>
+                            </span>
+                            <p class="blog__item-txt">
+                                Всемирный день Китайского языка
+                            </p>
+                        </div>
+                        <div class="blog__item-img">
+                            <img src="<%=require('@img/events-3.png') %>" alt="">
+                        </div>
+                        <div class="blog__item-icon">
+                            <svg width="77" height="42" viewBox="0 0 77 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 21L75 21" stroke="#F4E8DD" stroke-width="2" />
+                                <path d="M55 1L75 21L55 41" stroke="#F4E8DD" stroke-width="2" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="" class="blog__item">
+                        <div class="blog__item-group">
+                            <span class="blog__item-date">
+                                5 марта <span>2022</span>
+                            </span>
+                            <p class="blog__item-txt">
+                                Конкурс! Победителям дарим 3 бесплатных урока китайского языка в Школе "Конфуций"
+                            </p>
+                        </div>
+                        <div class="blog__item-img">
+                            <img src="<%=require('@img/events-4.png') %>" alt="">
+                        </div>
+                        <div class="blog__item-icon">
+                            <svg width="77" height="42" viewBox="0 0 77 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 21L75 21" stroke="#F4E8DD" stroke-width="2" />
+                                <path d="M55 1L75 21L55 41" stroke="#F4E8DD" stroke-width="2" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<%= require('@parts/footer.ejs')() %>

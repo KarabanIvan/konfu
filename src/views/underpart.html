@@ -1,0 +1,314 @@
+<%= require('@parts/header.ejs')({title: 'header_unfilled' }) %>
+
+<main class="homepage" id="root">
+    <div class="part">
+        <section class="part-courses">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="">Главная</a>
+                    <span>
+                        Блог
+                    </span>
+                </div>
+                <div class="part-courses__row">
+                    <div class="part-courses__content">
+                        <h2 class="part-courses__title">
+                            Курсы китайской культуры
+                        </h2>
+                        <p class="part-courses__txt">
+                            Академия «Конфуций» предлагает не только изучение китайского языка, но и занятия по культуре Китая для детей и взрослых с опытными педагогами-носителями. 
+                        </p>
+                        <div class="part-courses__group">
+                            <div class="part-courses__item">
+                                <p class="part-courses__item-txt">
+                                    <strong>Набор групп идет в течение всего года  </strong>
+                                </p>
+                            </div>
+                            <div class="part-courses__item">
+                                <p class="part-courses__item-txt">
+                                    <strong>Занятия для детей от 5 лет и взрослых </strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="part-courses__link-wrapper">
+                            <button class="part-courses__link">
+                                записаться на обучение
+                                <i>
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.893555 29.3994L21.3996 8.89332" stroke="white" stroke-width="2"/>
+                                        <path d="M3.72168 9.60059L21.7529 9.24703L21.3993 27.2783" stroke="white" stroke-width="2"/>
+                                    </svg>                                
+                                </i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="part-courses__compose">
+                        <a class="part-courses__compose-video popup-youtube" href="https://www.youtube.com/watch?v=Bcuh4_mqbF8" rel="nofollow">
+                            <img src="<%=require('@img/part-video.png') %>" alt="">
+                        </a>
+                        <h3 class="part-courses__compose-name">
+                            Чжан Сюньли
+                        </h3>
+                        <p class="part-courses__compose-position">
+                            Преподаватель курса
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part-list">
+            <div class="container">
+                <div class="part-list__item">
+                    <div class="part-list__img">
+                        <img src="<%=require('@img/course-1.png') %>" alt="">
+                    </div>
+                    <div class="part-list__content">
+                        <h3 class="part-list__title">
+                            Курс «Китайская каллиграфия»
+                        </h3>
+                        <p class="part-list__txt">
+                            Не зря кисть, тушь, бумагу и тушечницу в Китае называют «Четырьмя Драгоценностями», ведь каллиграфия – это неотъемлемая часть китайского языка, культурный феномен, который насчитывает уже несколько тысячелетий! На занятиях каллиграфией вы под руководством опытного педагога сделаете свои первые шаги на пути изучения загадочного искусства китайского письма.
+                        </p>
+                        <div class="part-list__footer">
+                            <p class="part-list__count">
+                                <i>
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 0.015625C8.82752 0.015625 6.7038 0.659849 4.89742 1.86683C3.09105 3.07381 1.68315 4.78934 0.851767 6.79648C0.0203844 8.80361 -0.197143 11.0122 0.226692 13.143C0.650527 15.2737 1.69669 17.231 3.23289 18.7672C4.76908 20.3034 6.72631 21.3495 8.85708 21.7734C10.9878 22.1972 13.1964 21.9797 15.2036 21.1483C17.2107 20.3169 18.9262 18.909 20.1332 17.1026C21.3402 15.2963 21.9844 13.1725 21.9844 11C21.981 8.08783 20.8226 5.29591 18.7634 3.23668C16.7041 1.17745 13.9122 0.0190606 11 0.015625ZM11 19.9873C9.22252 19.9873 7.48493 19.4602 6.00699 18.4726C4.52904 17.4851 3.37713 16.0815 2.69691 14.4393C2.01668 12.7971 1.83871 10.9901 2.18548 9.2467C2.53225 7.50335 3.38821 5.90198 4.64509 4.64509C5.90198 3.3882 7.50335 2.53225 9.2467 2.18548C10.9901 1.8387 12.7971 2.01668 14.4393 2.6969C16.0815 3.37712 17.4851 4.52904 18.4726 6.00698C19.4602 7.48493 19.9873 9.22252 19.9873 11C19.9844 13.3827 19.0366 15.6669 17.3517 17.3517C15.6669 19.0366 13.3827 19.9844 11 19.9873Z" fill="#0D5735"/>
+<path d="M11.9981 10.5867V5.00859C11.9981 4.74375 11.8929 4.48976 11.7057 4.30249C11.5184 4.11522 11.2644 4.01001 10.9996 4.01001C10.7347 4.01001 10.4807 4.11522 10.2935 4.30249C10.1062 4.48976 10.001 4.74375 10.001 5.00859V11.0001C10.001 11.2649 10.1063 11.5189 10.2936 11.7061L13.2893 14.7018C13.4777 14.8837 13.7299 14.9844 13.9917 14.9821C14.2535 14.9798 14.504 14.8748 14.6892 14.6897C14.8743 14.5045 14.9793 14.2541 14.9816 13.9922C14.9839 13.7304 14.8832 13.4782 14.7013 13.2898L11.9981 10.5867Z" fill="#0D5735"/>
+</svg>
+                                       
+                                </i>
+                                3 урока по 1 часу 
+                            </p>
+                            <a href="" class="part-list__link">
+                                записаться на курс
+                                <i>
+                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 9L18 9" stroke="white"/>
+                                        <path d="M10 1L18 9L10 17" stroke="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-list__item">
+                    <div class="part-list__img">
+                        <img src="<%=require('@img/course-1.png') %>" alt="">
+                    </div>
+                    <div class="part-list__content">
+                        <h3 class="part-list__title">
+                            Название курса 1
+                        </h3>
+                        <p class="part-list__txt">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        </p>
+                        <div class="part-list__footer">
+                            <p class="part-list__count">
+                                <i>
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 0.015625C8.82752 0.015625 6.7038 0.659849 4.89742 1.86683C3.09105 3.07381 1.68315 4.78934 0.851767 6.79648C0.0203844 8.80361 -0.197143 11.0122 0.226692 13.143C0.650527 15.2737 1.69669 17.231 3.23289 18.7672C4.76908 20.3034 6.72631 21.3495 8.85708 21.7734C10.9878 22.1972 13.1964 21.9797 15.2036 21.1483C17.2107 20.3169 18.9262 18.909 20.1332 17.1026C21.3402 15.2963 21.9844 13.1725 21.9844 11C21.981 8.08783 20.8226 5.29591 18.7634 3.23668C16.7041 1.17745 13.9122 0.0190606 11 0.015625ZM11 19.9873C9.22252 19.9873 7.48493 19.4602 6.00699 18.4726C4.52904 17.4851 3.37713 16.0815 2.69691 14.4393C2.01668 12.7971 1.83871 10.9901 2.18548 9.2467C2.53225 7.50335 3.38821 5.90198 4.64509 4.64509C5.90198 3.3882 7.50335 2.53225 9.2467 2.18548C10.9901 1.8387 12.7971 2.01668 14.4393 2.6969C16.0815 3.37712 17.4851 4.52904 18.4726 6.00698C19.4602 7.48493 19.9873 9.22252 19.9873 11C19.9844 13.3827 19.0366 15.6669 17.3517 17.3517C15.6669 19.0366 13.3827 19.9844 11 19.9873Z" fill="#0D5735"/>
+<path d="M11.9981 10.5867V5.00859C11.9981 4.74375 11.8929 4.48976 11.7057 4.30249C11.5184 4.11522 11.2644 4.01001 10.9996 4.01001C10.7347 4.01001 10.4807 4.11522 10.2935 4.30249C10.1062 4.48976 10.001 4.74375 10.001 5.00859V11.0001C10.001 11.2649 10.1063 11.5189 10.2936 11.7061L13.2893 14.7018C13.4777 14.8837 13.7299 14.9844 13.9917 14.9821C14.2535 14.9798 14.504 14.8748 14.6892 14.6897C14.8743 14.5045 14.9793 14.2541 14.9816 13.9922C14.9839 13.7304 14.8832 13.4782 14.7013 13.2898L11.9981 10.5867Z" fill="#0D5735"/>
+</svg>
+                                       
+                                </i>
+                                3 урока по 1 часу 
+                            </p>
+                            <a href="" class="part-list__link">
+                                записаться на курс
+                                <i>
+                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 9L18 9" stroke="white"/>
+                                        <path d="M10 1L18 9L10 17" stroke="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-list__item">
+                    <div class="part-list__img">
+                        <img src="<%=require('@img/course-1.png') %>" alt="">
+                    </div>
+                    <div class="part-list__content">
+                        <h3 class="part-list__title">
+                            Название курса 1
+                        </h3>
+                        <p class="part-list__txt">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        </p>
+                        <div class="part-list__footer">
+                            <p class="part-list__count">
+                                <i>
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 0.015625C8.82752 0.015625 6.7038 0.659849 4.89742 1.86683C3.09105 3.07381 1.68315 4.78934 0.851767 6.79648C0.0203844 8.80361 -0.197143 11.0122 0.226692 13.143C0.650527 15.2737 1.69669 17.231 3.23289 18.7672C4.76908 20.3034 6.72631 21.3495 8.85708 21.7734C10.9878 22.1972 13.1964 21.9797 15.2036 21.1483C17.2107 20.3169 18.9262 18.909 20.1332 17.1026C21.3402 15.2963 21.9844 13.1725 21.9844 11C21.981 8.08783 20.8226 5.29591 18.7634 3.23668C16.7041 1.17745 13.9122 0.0190606 11 0.015625ZM11 19.9873C9.22252 19.9873 7.48493 19.4602 6.00699 18.4726C4.52904 17.4851 3.37713 16.0815 2.69691 14.4393C2.01668 12.7971 1.83871 10.9901 2.18548 9.2467C2.53225 7.50335 3.38821 5.90198 4.64509 4.64509C5.90198 3.3882 7.50335 2.53225 9.2467 2.18548C10.9901 1.8387 12.7971 2.01668 14.4393 2.6969C16.0815 3.37712 17.4851 4.52904 18.4726 6.00698C19.4602 7.48493 19.9873 9.22252 19.9873 11C19.9844 13.3827 19.0366 15.6669 17.3517 17.3517C15.6669 19.0366 13.3827 19.9844 11 19.9873Z" fill="#0D5735"/>
+<path d="M11.9981 10.5867V5.00859C11.9981 4.74375 11.8929 4.48976 11.7057 4.30249C11.5184 4.11522 11.2644 4.01001 10.9996 4.01001C10.7347 4.01001 10.4807 4.11522 10.2935 4.30249C10.1062 4.48976 10.001 4.74375 10.001 5.00859V11.0001C10.001 11.2649 10.1063 11.5189 10.2936 11.7061L13.2893 14.7018C13.4777 14.8837 13.7299 14.9844 13.9917 14.9821C14.2535 14.9798 14.504 14.8748 14.6892 14.6897C14.8743 14.5045 14.9793 14.2541 14.9816 13.9922C14.9839 13.7304 14.8832 13.4782 14.7013 13.2898L11.9981 10.5867Z" fill="#0D5735"/>
+</svg>
+                                       
+                                </i>
+                                3 урока по 1 часу 
+                            </p>
+                            <a href="" class="part-list__link">
+                                записаться на курс
+                                <i>
+                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 9L18 9" stroke="white"/>
+                                        <path d="M10 1L18 9L10 17" stroke="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-list__item">
+                    <div class="part-list__img">
+                        <img src="<%=require('@img/course-1.png') %>" alt="">
+                    </div>
+                    <div class="part-list__content">
+                        <h3 class="part-list__title">
+                            Название курса 1
+                        </h3>
+                        <p class="part-list__txt">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        </p>
+                        <div class="part-list__footer">
+                            <p class="part-list__count">
+                                <i>
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 0.015625C8.82752 0.015625 6.7038 0.659849 4.89742 1.86683C3.09105 3.07381 1.68315 4.78934 0.851767 6.79648C0.0203844 8.80361 -0.197143 11.0122 0.226692 13.143C0.650527 15.2737 1.69669 17.231 3.23289 18.7672C4.76908 20.3034 6.72631 21.3495 8.85708 21.7734C10.9878 22.1972 13.1964 21.9797 15.2036 21.1483C17.2107 20.3169 18.9262 18.909 20.1332 17.1026C21.3402 15.2963 21.9844 13.1725 21.9844 11C21.981 8.08783 20.8226 5.29591 18.7634 3.23668C16.7041 1.17745 13.9122 0.0190606 11 0.015625ZM11 19.9873C9.22252 19.9873 7.48493 19.4602 6.00699 18.4726C4.52904 17.4851 3.37713 16.0815 2.69691 14.4393C2.01668 12.7971 1.83871 10.9901 2.18548 9.2467C2.53225 7.50335 3.38821 5.90198 4.64509 4.64509C5.90198 3.3882 7.50335 2.53225 9.2467 2.18548C10.9901 1.8387 12.7971 2.01668 14.4393 2.6969C16.0815 3.37712 17.4851 4.52904 18.4726 6.00698C19.4602 7.48493 19.9873 9.22252 19.9873 11C19.9844 13.3827 19.0366 15.6669 17.3517 17.3517C15.6669 19.0366 13.3827 19.9844 11 19.9873Z" fill="#0D5735"/>
+<path d="M11.9981 10.5867V5.00859C11.9981 4.74375 11.8929 4.48976 11.7057 4.30249C11.5184 4.11522 11.2644 4.01001 10.9996 4.01001C10.7347 4.01001 10.4807 4.11522 10.2935 4.30249C10.1062 4.48976 10.001 4.74375 10.001 5.00859V11.0001C10.001 11.2649 10.1063 11.5189 10.2936 11.7061L13.2893 14.7018C13.4777 14.8837 13.7299 14.9844 13.9917 14.9821C14.2535 14.9798 14.504 14.8748 14.6892 14.6897C14.8743 14.5045 14.9793 14.2541 14.9816 13.9922C14.9839 13.7304 14.8832 13.4782 14.7013 13.2898L11.9981 10.5867Z" fill="#0D5735"/>
+</svg>
+                                       
+                                </i>
+                                3 урока по 1 часу 
+                            </p>
+                            <a href="" class="part-list__link">
+                                записаться на курс
+                                <i>
+                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 9L18 9" stroke="white"/>
+                                        <path d="M10 1L18 9L10 17" stroke="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-list__item">
+                    <div class="part-list__img">
+                        <img src="<%=require('@img/course-1.png') %>" alt="">
+                    </div>
+                    <div class="part-list__content">
+                        <h3 class="part-list__title">
+                            Название курса 1
+                        </h3>
+                        <p class="part-list__txt">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        </p>
+                        <div class="part-list__footer">
+                            <p class="part-list__count">
+                                <i>
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 0.015625C8.82752 0.015625 6.7038 0.659849 4.89742 1.86683C3.09105 3.07381 1.68315 4.78934 0.851767 6.79648C0.0203844 8.80361 -0.197143 11.0122 0.226692 13.143C0.650527 15.2737 1.69669 17.231 3.23289 18.7672C4.76908 20.3034 6.72631 21.3495 8.85708 21.7734C10.9878 22.1972 13.1964 21.9797 15.2036 21.1483C17.2107 20.3169 18.9262 18.909 20.1332 17.1026C21.3402 15.2963 21.9844 13.1725 21.9844 11C21.981 8.08783 20.8226 5.29591 18.7634 3.23668C16.7041 1.17745 13.9122 0.0190606 11 0.015625ZM11 19.9873C9.22252 19.9873 7.48493 19.4602 6.00699 18.4726C4.52904 17.4851 3.37713 16.0815 2.69691 14.4393C2.01668 12.7971 1.83871 10.9901 2.18548 9.2467C2.53225 7.50335 3.38821 5.90198 4.64509 4.64509C5.90198 3.3882 7.50335 2.53225 9.2467 2.18548C10.9901 1.8387 12.7971 2.01668 14.4393 2.6969C16.0815 3.37712 17.4851 4.52904 18.4726 6.00698C19.4602 7.48493 19.9873 9.22252 19.9873 11C19.9844 13.3827 19.0366 15.6669 17.3517 17.3517C15.6669 19.0366 13.3827 19.9844 11 19.9873Z" fill="#0D5735"/>
+<path d="M11.9981 10.5867V5.00859C11.9981 4.74375 11.8929 4.48976 11.7057 4.30249C11.5184 4.11522 11.2644 4.01001 10.9996 4.01001C10.7347 4.01001 10.4807 4.11522 10.2935 4.30249C10.1062 4.48976 10.001 4.74375 10.001 5.00859V11.0001C10.001 11.2649 10.1063 11.5189 10.2936 11.7061L13.2893 14.7018C13.4777 14.8837 13.7299 14.9844 13.9917 14.9821C14.2535 14.9798 14.504 14.8748 14.6892 14.6897C14.8743 14.5045 14.9793 14.2541 14.9816 13.9922C14.9839 13.7304 14.8832 13.4782 14.7013 13.2898L11.9981 10.5867Z" fill="#0D5735"/>
+</svg>
+                                       
+                                </i>
+                                3 урока по 1 часу 
+                            </p>
+                            <a href="" class="part-list__link">
+                                записаться на курс
+                                <i>
+                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 9L18 9" stroke="white"/>
+                                        <path d="M10 1L18 9L10 17" stroke="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rule rule_underpart">
+            <div class="container">
+                <div class="rule__header">
+                    <h2 class="rule__title">
+                        Наши преподаватели
+                    </h2>
+                </div>
+                <div class="swiper rule__slider rule-slider active">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="" class="rule-slider__item rule-item">
+                                <div class="rule-item__img">
+                                    <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                </div>
+                                <h3 class="rule-item__title">
+                                    Алексеев Денис Максимович
+                                </h3>
+                                <p class="rule-item__info">
+                                    Опыт преподавания: 14 лет
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="rule-slider__item rule-item">
+                                <div class="rule-item__img">
+                                    <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                </div>
+                                <h3 class="rule-item__title">
+                                    Алексеев Денис Максимович
+                                </h3>
+                                <p class="rule-item__info">
+                                    Опыт преподавания: 14 лет
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="rule-slider__item rule-item">
+                                <div class="rule-item__img">
+                                    <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                </div>
+                                <h3 class="rule-item__title">
+                                    Алексеев Денис Максимович
+                                </h3>
+                                <p class="rule-item__info">
+                                    Опыт преподавания: 14 лет
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="rule-slider__item rule-item">
+                                <div class="rule-item__img">
+                                    <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                </div>
+                                <h3 class="rule-item__title">
+                                    Алексеев Денис Максимович
+                                </h3>
+                                <p class="rule-item__info">
+                                    Опыт преподавания: 14 лет
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="rule-slider__item rule-item">
+                                <div class="rule-item__img">
+                                    <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                </div>
+                                <h3 class="rule-item__title">
+                                    Алексеев Денис Максимович
+                                </h3>
+                                <p class="rule-item__info">
+                                    Опыт преподавания: 14 лет
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<%= require('@parts/footer.ejs')() %>

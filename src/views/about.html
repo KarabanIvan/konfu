@@ -1,0 +1,555 @@
+<%= require('@parts/header.ejs')({title: 'Frontpage' }) %>
+
+<main class="homepage" id="root">
+   <div class="about">
+        <section class="about-header">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="">Главная</a>
+                    <span>
+                        Блог
+                    </span>
+                </div>
+                <div class="about-header__row">
+                    <div class="about-header__content">
+                        <h2 class="about-header__title">
+                            Академия восточных языков и культуры «Конфуций
+                        </h2>
+                        <p class="about-header__txt">
+                            ЧУОДО «Академия восточных языков и культуры «Конфуций») была основана в 2001 году и работает по системе дополнительного образования РФ.
+                        </p>
+                        <p class="about-header__txt">
+                            Деятельность школы «Конфуций» осуществляется при поддержке Правительства Санкт-Петербурга, Генерального консульства Китайской Народной Республики в Санкт-Петербурге, Комитета по образованию Санкт-Петербурга и Штаб-квартиры институтов Конфуция КНР.
+                        </p>
+                    </div>
+                    <div class="about-header__img">
+                        <img src="<%=require('@img/about-header.svg') %>" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-info">
+            <div class="container">
+                <div class="about-info__header">
+                    <h2 class="about-info__title">
+                        Об академии
+                    </h2>
+                    <a href="" class="about-info__link">
+                        основные сведения
+                        <i>
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9L18 9" stroke="white"/>
+                                <path d="M10 1L18 9L10 17" stroke="white"/>
+                            </svg>                                
+                        </i>
+                    </a>
+                </div>
+                <div class="about-info__row">
+                    <div class="about-info__col">
+                        <p class="about-info__txt">
+                            С 2007 года Академия вышла на международный уровень, войдя в состав глобальной сети Институтов и Школ Конфуций (Центр языкового образования и сотрудничества При Министерстве Образования КНР (ранее - Китайская канцелярия Ханьбань) – Государственной канцелярии КНР по распространению китайского языка в мире, которая работает под эгидой Комитета по образованию КНР и является лидирующей школой по китайскому языку в мире. В 2016 г. Академия «Конфуций» (г. Санкт-Петербург) вошла в пятерку лучших школ мира (из 1073 школ). На 11 Всемирной конференции институтов и школ Конфуция был вручен соответствующий Диплом.
+                        </p>
+                    </div>
+                    <div class="about-info__col">
+                        <p class="about-info__txt">
+                            С 2008 года ЧУОДО «Академия восточных языков и культуры «Конфуций» является центром тестирования для проведения международных экзаменов по китайскому языку (YCT, HSK, HSKK), в котором принимают участие учащиеся уже после первого года обучения. Процент успешной сдачи нашими учащимися - 85%. Проделав огромную работу по проведению данных экзаменов, Академия в 2015 году заняла 6 место в мировом рейтинге. А в декабре 2017 года на XII Съезде Институтов Конфуция в г. Сиань заместитель председателя Ханьбань Чжао Гуочжен вручает директору школы Хань Даньсин награду «Лучший центр тестирования». Учащиеся, успешно сдавшие международный экзамен, получают возможность ходатайства на стипендиальное обучение в Китае.К
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rule">
+            <div class="container">
+                <div class="rule__header">
+                    <h2 class="rule__title">
+                        Руководство и педагогический состав
+                    </h2>
+                    <div class="rule__link-wrapper">
+                        <a href="" class="rule__link">
+                            весь педагогический состав
+                            <i>
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 9L18 9" stroke="white"/>
+                                    <path d="M10 1L18 9L10 17" stroke="white"/>
+                                </svg>                                
+                            </i>
+                        </a>
+                    </div>
+                </div>
+                <div class="rule__accordion">
+                    <div class="rule__nav-wrapper">
+                        <div class="rule__nav-shape"></div>
+                        <ul class="rule__nav">
+                            <li class="active">руководство</li>
+                            <li>администраторы</li>
+                            <li>преподаватели</li>
+                        </ul>
+                        <div class="rule__nav-shape"></div>
+                    </div>
+                    <div class="swiper rule__slider rule-slider active">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper rule__slider rule-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Павленко Алексей Данилович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper rule__slider rule-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="rule-slider__item rule-item">
+                                    <div class="rule-item__img">
+                                        <img src="<%=require('@img/rule-1.png') %>" alt="">
+                                    </div>
+                                    <h3 class="rule-item__title">
+                                        Алексеев Денис Максимович
+                                    </h3>
+                                    <p class="rule-item__info">
+                                        Опыт преподавания: 14 лет
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-documents">
+            <div class="container">
+                <div class="about-documents__header">
+                    <h2 class="about-documents__title">
+                        Документы
+                    </h2>
+                    <a href="" class="about-documents__link">
+                        Все документы
+                        <i>
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9L18 9" stroke="white"/>
+                                <path d="M10 1L18 9L10 17" stroke="white"/>
+                            </svg>                                
+                        </i>
+                    </a>
+                </div>
+                <div class="about-documents__row">
+                    <div class="about-documents__certificates">
+                        <img src="<%=require('@img/cert.png') %>" alt="">
+                    </div>
+                    <ul class="about-documents__list">
+                        <li><a href="">
+                            Устав ЧУОДО "Академия восточных языков и культуры "Конфуций"
+                        </a></li>
+                        <li><a href="">
+                            Лицензия на осуществление образовательной деятельности, приложение к лицензии.
+                        </a></li>
+                        <li><a href="">
+                            План финансово-хозяйственной деятельности Организации
+                        </a></li>
+                        <li><a href="">
+                            Правила приема обучающихся
+                        </a></li>
+                        <li><a href="">
+                            Режим занятий обучающихся
+                        </a></li>
+                        <li><a href="">
+                            Положение о формах обучения
+                        </a></li>
+                        <li><a href="">
+                            Положение о системе оценок
+                        </a></li>
+                        <li><a href="">
+                            Положение о текущем контроле успеваемости, промежуточной и итоговой аттестации обучающихся
+                        </a></li>
+                        <li><a href="">
+                            Порядок и основания перевода, отчисления и восстановления обучающихся
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="about-ach">
+            <div class="container">
+                <div class="about-ach__header">
+                    <h2 class="about-ach__title">
+                        Наши достижения
+                    </h2>
+                    <a href="" class="about-ach__link">
+                        Все достижения академии
+                        <i>
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9L18 9" stroke="white"/>
+                                <path d="M10 1L18 9L10 17" stroke="white"/>
+                            </svg>                                
+                        </i>
+                    </a>
+                </div>
+                <div class="swiper about-ach__slider ach-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="ach-slider__item">
+                                <p class="ach-slider__year">
+                                    2021
+                                </p>
+                                <div class="ach-slider__content">
+                                    <h3>
+                                        9-ый Всероссийский школьный конкурс «Мост китайского языка»
+                                    </h3>
+                                    <p>
+                                        <strong>I место в старшей возрастной группе</strong> - Матвей Карнашин
+                                    </p>
+                                    <p>
+                                        Также Матвей выиграл в номинации «Лучшее ораторское выступление»
+                                    </p>
+                                    <p>
+                                        <strong>I место в групповом зачете в младшей возрастной группе</strong> - команда Санкт-Петербурга 
+                                    </p>
+                                    <p>
+                                       <strong> II место в младшей возрастной группе</strong> - Варвара Кацер
+                                    </p>
+                                    <p>
+                                        <strong>III место в младшей возрастной группе</strong> - Кристина Богданова
+                                    </p>
+                                    <p>
+                                        <strong>III место в старшей возрастной группе</strong> - Алиса Савинова
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ach-slider__item">
+                                <p class="ach-slider__year">
+                                    2021
+                                </p>
+                                <div class="ach-slider__content">
+                                    <h3>
+                                        9-ый Всероссийский школьный конкурс «Мост китайского языка»
+                                    </h3>
+                                    <h4>
+                                        Младшая возрастная группа:
+                                    </h4>
+                                    <p>
+                                       <strong> II место в младшей возрастной группе</strong> - Варвара Кацер
+                                    </p>
+                                    <p>
+                                        <strong>III место в младшей возрастной группе</strong> - Кристина Богданова
+                                    </p>
+                                    <p>
+                                        <strong>III место в старшей возрастной группе</strong> - Алиса Савинова
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ach-slider__item">
+                                <p class="ach-slider__year">
+                                    2021
+                                </p>
+                                <div class="ach-slider__content">
+                                    <h3>
+                                        9-ый Всероссийский школьный конкурс «Мост китайского языка»
+                                    </h3>
+                                    <p>
+                                        <strong>I место в старшей возрастной группе</strong> - Матвей Карнашин
+                                    </p>
+                                    <p>
+                                        Также Матвей выиграл в номинации «Лучшее ораторское выступление»
+                                    </p>
+                                    <p>
+                                        <strong>I место в групповом зачете в младшей возрастной группе</strong> - команда Санкт-Петербурга 
+                                    </p>
+                                    <p>
+                                       <strong> II место в младшей возрастной группе</strong> - Варвара Кацер
+                                    </p>
+                                    <p>
+                                        <strong>III место в младшей возрастной группе</strong> - Кристина Богданова
+                                    </p>
+                                    <p>
+                                        <strong>III место в старшей возрастной группе</strong> - Алиса Савинова
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ach-slider__item">
+                                <p class="ach-slider__year">
+                                    2021
+                                </p>
+                                <div class="ach-slider__content">
+                                    <h3>
+                                        9-ый Всероссийский школьный конкурс «Мост китайского языка»
+                                    </h3>
+                                    <h4>
+                                        Младшая возрастная группа:
+                                    </h4>
+                                    <p>
+                                       <strong> II место в младшей возрастной группе</strong> - Варвара Кацер
+                                    </p>
+                                    <p>
+                                        <strong>III место в младшей возрастной группе</strong> - Кристина Богданова
+                                    </p>
+                                    <p>
+                                        <strong>III место в старшей возрастной группе</strong> - Алиса Савинова
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-learn">
+            <div class="container">
+                <div class="about-learn__header">
+                    <h2 class="about-learn__title">
+                        Учебные пособия
+                    </h2>
+                    <a href="" class="about-learn__link">
+                        Все учебные пособия
+                        <i>
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9L18 9" stroke="white"/>
+                                <path d="M10 1L18 9L10 17" stroke="white"/>
+                            </svg>                                                         
+                        </i>
+                    </a>
+                </div>
+                <div class="about-learn__row">
+                    <div class="about-learn__item">
+                        <div class="about-learn__img">
+                            <img src="<%=require('@img/about-learn-1.png') %>" alt="">
+                        </div>
+                        <p class="about-learn__txt">
+                            <strong>“Веселый китайский язык"</strong>. Комплект включает в себя учебник, рабочую тетрадь, CD-диски (2 шт) с текстами к учебнику, 2 прописи для транскрипции, 2 прописи для иероглифов
+                        </p>
+                    </div>
+                    <div class="about-learn__item">
+                        <div class="about-learn__img">
+                            <img src="<%=require('@img/about-learn-2.png') %>" alt="">
+                        </div>
+                        <p class="about-learn__txt">
+                            <strong>“Учитесь у меня китайскому языку"</strong>. Комплект включает в себя учебник, рабочую тетрадь, CD-диски (2 шт) с текстами к учебнику, фонетическое пособие с CD-диском (только для 1 тома), 2 прописи для транскрипции (только для 1 тома), 2 прописи для иероглифов
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-partners">
+            <div class="container">
+                <div class="about-partners__header">
+                    <h2 class="about-partners__title">
+                        Наши партнеры
+                    </h2>
+                    <a href="" class="about-partners__link">
+                        Все партнеры
+                        <i>
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9L18 9" stroke="white"/>
+                                <path d="M10 1L18 9L10 17" stroke="white"/>
+                            </svg>                                
+                        </i>
+                    </a>
+                </div>
+                <ul class="about-partners__list">
+                    <li><a href="">
+                        Комитет по образованию Санкт-Петербурга
+                    </a></li>
+                    <li><a href="">
+                        Комитет по внешним связям Санкт-Петербурга
+                    </a></li>
+                    <li><a href="">
+                        Генеральное Консульство КНР в Санкт-Петербурге
+                    </a></li>
+                    <li><a href="">
+                        Центр языкового образования и сотрудничества при Министерстве Образования КНР
+                    </a></li>
+                    <li><a href="">
+                        Шаньдунский педагогический университет
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+   </div>
+</main>
+
+<%= require('@parts/footer.ejs')() %>

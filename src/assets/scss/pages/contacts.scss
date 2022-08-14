@@ -1,0 +1,146 @@
+.contacts {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 169px;
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+    &__row {
+        display: flex;
+    }
+    &__content {
+        width: 467px;
+        padding-right: 17px;
+        min-width: 467px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 65px;
+        color: #222831;
+        margin-bottom: 55px;
+    }
+    &::after {
+        position: absolute;
+        width: 533px;
+        top: 0;
+        bottom: 0;
+        content: '';
+        display: inline-block;
+        background: url(../../assets/img/bg-right.svg) top left;
+        right: -346px;
+    }
+    &::before {
+        position: absolute;
+        width: 533px;
+        top: 0;
+        bottom: 0;
+        content: '';
+        display: inline-block;
+        background: url(../../assets/img/bg-left.svg) top left;
+        left: -364px;
+    }
+    &__item {
+        margin-bottom: 20px;
+    }
+    &__label {
+        font-family: 'Futura PT', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: #BBBBBB;
+    }
+    &__info {
+        font-weight: 500;
+        color: #2B2B2B;
+        margin-bottom: 0;
+        &_lt {
+            font-weight: 400;
+        }
+        &_xlg {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        &_sm {
+            font-size: 18px;
+            line-height: 23px;
+        }
+        &_md {
+            font-size: 22px;
+            line-height: 23px;
+        }
+        &_xs {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    a.contacts__info {
+        text-decoration: none;
+        transition: .3s all;
+        &:hover {
+            text-decoration: none;
+            color: #CB6B6B;
+        }
+    }
+    &__group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    &__messagers {
+        margin-left: 25px;
+        a {
+            text-decoration: none;
+            margin-right: 19px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__socials {
+        margin-top: 13px;
+        a {
+            text-decoration: none;
+            margin-right: 24px;
+        }
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+        margin-top: 36px;
+        margin-bottom: 0;
+        list-style: none;
+        li {
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #A4A4A4;
+            cursor: pointer;
+            transition: .3s all;
+            &.active {
+                text-decoration-line: underline;
+                color: #0D5735;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__map {
+        width: 100%;
+        &-wrapper {
+            height: 580px;
+            margin-top: 52px;
+        }
+    }
+    &__block {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Acrom';
+    src: local('Acrom Regular'), local('Acrom-Regular'),
+        url('../fonts/Acrom-Regular.woff2') format('woff2'),
+        url('../fonts/Acrom-Regular.woff') format('woff'),
+        url('../fonts/Acrom-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Acrom';
+    src: local('Acrom Medium'), local('Acrom-Medium'),
+        url('../fonts/Acrom-Medium.woff2') format('woff2'),
+        url('../fonts/Acrom-Medium.woff') format('woff'),
+        url('../fonts/Acrom-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Acrom';
+    src: local('Acrom Bold'), local('Acrom-Bold'),
+        url('../fonts/Acrom-Bold.woff2') format('woff2'),
+        url('../fonts/Acrom-Bold.woff') format('woff'),
+        url('../fonts/Acrom-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Acrom';
+    src: local('Acrom Extra Bold'), local('Acrom-Extra-Bold'),
+        url('../fonts/Acrom-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Acrom-ExtraBold.woff') format('woff'),
+        url('../fonts/Acrom-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Book'), local('Futura-PT-Book'),
+        url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Book.woff') format('woff'),
+        url('../fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Demi'), local('Futura-PT-Demi'),
+        url('../fonts/FuturaPT-Demi.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Demi.woff') format('woff'),
+        url('../fonts/FuturaPT-Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Medium'), local('Futura-PT-Medium'),
+        url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Medium.woff') format('woff'),
+        url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }

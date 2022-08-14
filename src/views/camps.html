@@ -1,0 +1,99 @@
+<%= require('@parts/header.ejs')({title: 'header_unfilled' }) %>
+
+<main class="homepage" id="root">
+    <section class="hsk camp">
+            <div class="hsk__header hsk-header camp-header">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <a href="">Главная</a>
+                        <span>
+                            Блог
+                        </span>
+                    </div>
+                    <div class="hsk-header__content">
+                        <h2 class="hsk-header__title">
+                            Лингвистические лагеря
+                        </h2>
+                        <p class="hsk-header__txt">
+                            Ежегодно Центр языкового образования и сотрудничества При Министерстве Образования КНР (ранее - Китайская канцелярия Ханьбань) и Школа Конфуций организует детский лагерь в Китае: срок выезда 2 недели, участником лагеря оплачивается дорога (авиабилеты и т.п.) + виза в Китай + личные расходы в Китае ((в случае возникновения непредвиденных расходов, об этом сообщается дополнительно); китайской стороной оплачивается обучение, проживание, 3-х разовое питание, вся экскурсионная программа.
+                        </p>
+                    </div>
+                    <div class="camp__gallery camp-gallery">
+                        <div class="camp-gallery__row">
+                            <div class="camp-gallery__item">
+                                <img src="<%=require('@img/camp-1.png') %>" alt="">
+                            </div>
+                            <div class="camp-gallery__item">
+                                <img src="<%=require('@img/camp-2.png') %>" alt="">
+                            </div>
+                            <div class="camp-gallery__item">
+                                <img src="<%=require('@img/camp-3.png') %>" alt="">
+                            </div>
+                            <div class="camp-gallery__item">
+                                <img src="<%=require('@img/camp-4.png') %>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="camp__need camp-need">
+                    <div class="camp-need__row">
+                        <div class="camp-need__content">
+                            <h2 class="camp-need__title">
+                                Требования к участникам лагеря:
+                            </h2>
+                            <ul class="camp-need__list">
+                                <li>Возраст от 15 до 30 лет</li>
+                                <li>Обязательно есть сертификат YCT или HSK</li>
+                                <li>Обучение в Школе Конфуций не менее 1 учебного года</li>
+                                <li>Иметь действующий загранпаспорт</li>
+                                <li>Прописка или регистрации в Северо-западном федеральном округе</li>
+                            </ul>
+                        </div>
+                        <div class="camp-need__attention">
+                            <h3 class="camp-need__attention-title">
+                                Внимание!
+                            </h3>
+                            <p class="camp-need__attention-txt">
+                                Напоминаем, что приоритет в поездке будут иметь те учащиеся, которые еще не ездили ранее
+                            </p>
+                        </div>
+                    </div>
+                    <p class="camp-need__txt">
+                        Требования к участникам лагеря выдвигаются от принимающего института и Госканцелярии по распространению китайского языка в мире Ханьбань. Ежегодно требования меняются. Школа Конфуций не несет ответственности за создание данных требований. <br>
+                        За более подробной информацией обращаться в администрацию.
+                    </p>
+                </div>
+                <div class="camp__last camp-last">
+                    <h2 class="camp-last__title">
+                        Последние лингвистические лагеря
+                    </h2>
+                    <div class="camp-last__row">
+                        <div class="camp-last__col">
+                            <a href="" class="camp-last__item">
+                                <div class="camp-last__img">
+                                    <img src="<%=require('@img/camplast-1.png') %>" alt="">
+                                </div>
+                                <p class="camp-last__info">
+                                    Летний лингвистический лагерь <span>2021</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="camp-last__col">
+                            <a href="" class="camp-last__item">
+                                <div class="camp-last__img">
+                                    <img src="<%=require('@img/camplast-1.png') %>" alt="">
+                                </div>
+                                <p class="camp-last__info">
+                                    Летний лингвистический лагерь <span>2021</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</main>
+
+<%= require('@parts/footer.ejs')() %>
