@@ -1,25 +1,5 @@
 .part {
     position: relative;
-    &::after {
-        position: absolute;
-        width: 533px;
-        top: 0;
-        bottom: 0;
-        content: '';
-        display: inline-block;
-        background: url(../../assets/img/bg-right.svg) top left;
-        right: -366px;
-    }
-    &::before {
-        position: absolute;
-        width: 533px;
-        top: 0;
-        bottom: 0;
-        content: '';
-        display: inline-block;
-        background: url(../../assets/img/bg-left.svg) top left;
-        left: -364px;
-    }
     section, .container {
         position: relative;
         z-index: 2;
@@ -167,6 +147,9 @@
     &-reviews {
         margin-top: 130px;
         padding-bottom: 150px;
+        &_feedback {
+            padding-bottom: 12px;
+        }
         &__title {
             font-weight: 400;
             font-size: 42px;

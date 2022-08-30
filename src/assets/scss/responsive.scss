@@ -100,6 +100,9 @@
         margin-right: 30px;
         font-size: 48px;
     }
+    .underback__form {
+      width: 100%;
+    }
 }
 
 @media(max-width: 991px) {
@@ -1245,5 +1248,128 @@
     }
     .dropnav__contacts {
       margin-top: 30px;
+    }
+    .rule__undnew {
+      padding-bottom: 40px;
+    }
+    .faq__body p {
+      line-height: 20px;
+    }
+    .underback {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      &__title {
+         font-size: 24px;
+      }
+    }
+    .underback__col {
+      width: 100%;
+    }
+    .pr-table__col1 {
+      padding-right: 15px;
+    }
+    .pr-table__col2 {
+      padding-right: 15px;
+    }
+    .pr-price__title {
+      font-size: 12px;
+      line-height: 16px;
+      span {
+         font-size: 12px;
+      }
+    }
+    .pr-price__price {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .pr-price__txt {
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .pr-table__do-title {
+      font-size: 12px;
+      line-height: 16px;
+      span {
+         font-size: 12px;
+         line-height: 16px;
+      }
+    }
+    .pr-table__do {
+      margin-bottom: 15px;
+    }
+    .pr-table__age-title {
+      font-size: 16px;
+      line-height: 20px;
+      span {
+         font-size: 12px;
+         margin-top: 10px;
+      }
+    }
+    .pr-table__block {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .pr-table__accord {
+      padding-left: 0;
+      p {
+         font-size: 12px;
+         line-height: 16px;
+      }
+    }
+    .pr-table__open {
+      font-size: 10px;
+    }
+    .underback__submit {
+      font-size: 12px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .underback__select {
+      height: 60px;
+      font-size: 18px;
+      line-height: 60px;
+    }
+    .part-programm__title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .part-programm__txt {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .part-programm {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-bottom: 0;
+    }
+    .underback__control {
+      font-size: 18px;
+      height: 60px;
+    }
+    .underback__nav {
+      flex-direction: column;
+      margin-top: 10px;
+      li {
+         font-size: 16px;
+         line-height: 22px;
+         margin: 0!important;
+      }
+    }
+    .faq {
+      padding-top: 40px;
+      &__title {
+         font-size: 24px;
+         margin-bottom: 24px;
+      }
+      &__header {
+         padding-top: 15px;
+         padding-bottom: 15px;
+         span {
+            font-size: 16px;
+         }
+         i svg {
+            max-width: 20px;
+         }
+      }
     }
 }

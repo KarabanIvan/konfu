@@ -1,7 +1,13 @@
 /* eslint-disable */
 import '../scss/main.scss';
 import 'magnific-popup';
+import 'jquery-nice-select';
 import Swiper from 'swiper/bundle';
+
+
+$(document).ready(function() {
+  $('.select-init').niceSelect();
+});
 
 $('.popup-youtube').magnificPopup({ 
     type: 'iframe' 
@@ -137,6 +143,10 @@ $('ul.rule__nav').on('click', 'li:not(.active)', function () {
   $(this).addClass('active').siblings().removeClass('active').closest('div.rule__accordion').find('div.rule-slider').removeClass('active').eq($(this).index()).addClass('active');
 });
 
+$('ul.underback__nav').on('click', 'li:not(.active)', function () {
+  $(this).addClass('active').siblings().removeClass('active').closest('div.underback__wrapper').find('div.underback__block').removeClass('active').eq($(this).index()).addClass('active');
+});
+
 $(window).on("scroll", function() {
   let scrollInfo = $(window).scrollTop();
   $('.circles').css('transform', `translateY(${scrollInfo}px)`);
@@ -188,3 +198,36 @@ $('.modal__close, .backdrop').click(function () {
   $('.modal').removeClass('active');
   $('.backdrop').removeClass('active');
 });
+
+
+
+
+// Новый скрипт
+
+$('.pr-table__open').click(function () {
+  $(this).closest('.pr-table__block').toggleClass('open');
+  if($(this).hasClass('active')) {
+    $(this).children('.pr-table__open-str').html('Подробнее');
+  } else {
+    $(this).children('.pr-table__open-str').html('Скрыть');
+  }
+  $(this).toggleClass('active');
+});
+
+$(document).ready(function() {
+  //прикрепляем клик по заголовкам acc-head
+    $('.faq__wrapper .faq__header').on('click', f_acc);
+});
+ 
+function f_acc(){
+//скрываем все кроме того, что должны открыть
+  $('.faq__wrapper .faq__body-wrapper').not($(this).next()).slideUp(300);
+// открываем или скрываем блок под заголовком, по которому кликнули
+if($(this).hasClass('active')) {
+  $('.faq__wrapper .faq__header').removeClass('active');
+} else {
+  $('.faq__wrapper .faq__header').removeClass('active');
+  $(this).addClass('active');
+}
+    $(this).next().slideToggle(300);
+}
